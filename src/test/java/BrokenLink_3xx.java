@@ -28,6 +28,9 @@ public class BrokenLink_3xx {
     HttpURLConnection urlconnection = null;
     int responseCode = 200;
 
+
+
+
     @BeforeTest
     public void testSetUp() throws MalformedURLException {
         /*

@@ -43,25 +43,26 @@ public class GATags {
 
     @Test
     public void  test_Selenium_Google_Analytics() {
-        String URL = "https://www.lambdatest.com/blog";
+        String URL = "https://shipsy.io/";
 
         driver.navigate().to(URL);
         driver.manage().window().maximize();
 
         List<WebElement> scriptList = driver.findElements(By.tagName("script"));
         boolean scriptFound = false;
-        for(WebElement item : scriptList){
+        for(WebElement item : scriptList) {
             scriptFound = item.getAttribute("src").contains("google-analytics.com/ga.js");
+//            System.out.println(item.getAttribute("src").contains("google-analytics.com/ga.js"))
         }
-        if(scriptFound == true) {
+
+        if (scriptFound == true) {
 
             System.out.println("This webpage contains google-analytics");
 
-        }else{
+        } else {
             System.out.println("This webpage does not contains google-analytics");
 
         }
-
 
     }
 

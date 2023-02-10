@@ -26,8 +26,8 @@
     WebDriver driver = null;
     String URL = "https://www.lambdatest.com/blog";
     public static String status = "passed";
-    String username = "Username";
-    String access_key = "accesskey";
+    String username = "";
+    String access_key = "";
 
     String url = "";
     HttpURLConnection urlconnection = null;

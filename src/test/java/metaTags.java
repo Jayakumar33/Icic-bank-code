@@ -19,7 +19,6 @@ public class metaTags {
     String username = "";
     String access_key = "";
 
-
     @BeforeTest
     public void testSetUp() throws MalformedURLException {
 
@@ -58,7 +57,6 @@ public void  test_Selenium_Meta_Links() {
 
 
     }
-
 
 
     @AfterTest
