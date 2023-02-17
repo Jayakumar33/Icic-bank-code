@@ -61,55 +61,7 @@ public class PageTestingInAndroid {
         driver.get("https://www.icicibank.com/");
         Thread.sleep(10000);
 
-//        driver.navigate().to("https://www.Google.com/");
 
-//        System.out.println("Checking Box");
-//        driver.findElement(By.name("li1")).click();
-//
-//        System.out.println("Checking Another Box");
-//        driver.findElement(By.name("li2")).click();
-//
-//        System.out.println("Checking Box");
-//        driver.findElement(By.name("li3")).click();
-//
-//        System.out.println("Checking Another Box");
-//        driver.findElement(By.name("li4")).click();
-//
-//        driver.findElement(By.id("sampletodotext")).sendKeys(" List Item 6");
-//        driver.findElement(By.id("addbutton")).click();
-//
-//        driver.findElement(By.id("sampletodotext")).sendKeys(" List Item 7");
-//        driver.findElement(By.id("addbutton")).click();
-//
-//        driver.findElement(By.id("sampletodotext")).sendKeys(" List Item 8");
-//        driver.findElement(By.id("addbutton")).click();
-//
-//        System.out.println("Checking Another Box");
-//        driver.findElement(By.name("li1")).click();
-//
-//        System.out.println("Checking Another Box");
-//        driver.findElement(By.name("li3")).click();
-//
-//        System.out.println("Checking Another Box");
-//        driver.findElement(By.name("li7")).click();
-//
-//        System.out.println("Checking Another Box");
-//        driver.findElement(By.name("li8")).click();
-//
-//        System.out.println("Entering Text");
-//        driver.findElement(By.id("sampletodotext")).sendKeys("Get Taste of Lambda and Stick to It");
-//
-//        driver.findElement(By.id("addbutton")).click();
-//
-//        System.out.println("Checking Another Box");
-//        driver.findElement(By.name("li9")).click();
-//
-//        // Let's also assert that the todo we added is present in the list.
-//
-//        spanText = driver.findElementByXPath("/html/body/div/div/div/ul/li[9]/span").getText();
-//        Assert.assertEquals("Get Taste of Lambda and Stick to It", spanText);
-//        Status = "passed";
-//        Thread.sleep(800);
 
         Status = "passed";
         System.out.println("TestFinished");
