@@ -1,0 +1,8 @@
+<suite thread-count="20" parallel="tests" name="Suite">
+    <test thread-count="20" parallel="classes" name="Test">
+        <classes>
+            <class name="PageTestingInDifferentBrowsersFireFox"/>
+            <class name="PageTestingInDifferentBrowsersEdge"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
